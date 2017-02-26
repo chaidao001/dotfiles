@@ -1,5 +1,6 @@
 ln -s ~/dotfiles/.zshrc ~/
 ln -s ~/dotfiles/.vimrc ~/
+ln -s ~/dotfiles/.tmux.conf ~/
 ln -s ~/dotfiles/.vim ~/
 ln -s ~/dotfiles/.ansible.cfg ~/
 ln -s ~/dotfiles/ssh/config ~/.ssh/
