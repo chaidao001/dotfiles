@@ -1,0 +1,7 @@
+*.swp
+*.o
+*.bundle
+*.pyc
+
+ssh/
+iterm_profile/
