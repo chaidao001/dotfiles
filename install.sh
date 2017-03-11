@@ -15,3 +15,5 @@ ln -s ~/dotfiles/.sshrc.d ~/
 # brew packages
 brew install sshrc
 brew install gnu-tar
+brew install reattach-to-user-namespace
+

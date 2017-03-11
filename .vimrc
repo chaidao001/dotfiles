@@ -149,3 +149,5 @@ nnoremap <Leader>a :Ack!<Space>
 "Stop from flashing into terminal
 set shellpipe=>
 
+set clipboard=unnamed
+
