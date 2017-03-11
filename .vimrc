@@ -35,6 +35,8 @@ set pastetoggle=<F2>
 
 "show relative line number
 set relativenumber
+"show line number at current line
+set number
 
 "nerdtree
 map <C-n> :NERDTreeToggle<CR>
@@ -56,8 +58,8 @@ au BufRead,BufNewFile *.mesa set filetype=groovy
 au BufRead,BufNewFile *.macro set filetype=groovy
 
 "Set browser cookies for vim-datatable
-let cookies = "4a255816-1e5c-4358-bd33-891dff72f520"
-let dt_git = "~/Work/data-table/"
+let cookies = "c0816b2e-0ff8-4d0f-8714-aaf65fb7726e"
+let dt_git = $HOME"/Work/data-table/"
 
 "Status bar
 set noruler
@@ -122,15 +124,12 @@ nmap <leader>cp :let @*=expand("%")<CR>
 nmap <leader>ca :let @*=expand("%:p")<CR>
 
 "Split pane navigation
-nnoremap <leader>j <C-W><C-J>
-nnoremap <leader>k <C-W><C-K>
-nnoremap <leader>l <C-W><C-L>
-nnoremap <leader>h <C-W><C-H>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 "Keybinds
-nnoremap <leader>q :q!<CR>
-nnoremap <leader>w :w<CR>
-nnoremap <leader>l :ls<CR>
 nnoremap <leader><leader> <C-^>
 nnoremap <leader>b :b#<CR>
 nnoremap <tab> *

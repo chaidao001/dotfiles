@@ -3,7 +3,7 @@
 if [ -z "$SSH_CLIENT" ]; then
     export ZSH=~/.oh-my-zsh
     ZSH_THEME="robbyrussell"
-    plugins=(git extract)
+    plugins=(git extract npm pip)
     source $ZSH/oh-my-zsh.sh
 
     alias shc='vi ~/dotfiles/.zshrc'
@@ -27,6 +27,7 @@ alias ll='ls -lGa'
 alias lessn='less -N'
 alias awkc="awk -F ','"
 alias ..='cd ..'
+alias t="tmux"
 
 # git
 alias gg='git grep'
