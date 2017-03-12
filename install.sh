@@ -17,3 +17,6 @@ brew install sshrc
 brew install gnu-tar
 brew install reattach-to-user-namespace
 
+# modify plist files
+# dock pop up time
+defaults write com.apple.dock autohide-time-modifier -int 0
