@@ -28,6 +28,7 @@ alias lessn='less -N'
 alias awkc="awk -F ','"
 alias ..='cd ..'
 alias t="tmux"
+alias ta="tmux a"
 
 # git
 alias gg='git grep'
@@ -60,6 +61,7 @@ alias unmount='diskutil unmount /dev/disk2s1'
 
 # cd
 alias desktop='cd ~/Desktop/'
+alias dls='cd ~/Downloads/'
 alias work='cd ~/Work'
 alias dt='cd ~/Work/data-table'
 alias todo='vi ~/Personal/todo.markdown'
@@ -144,4 +146,9 @@ alias hercules-stag='ssh tuscan-seb-pdb-2'
 
 alias radar-prod='ssh tuscan-peb-radar-2'
 alias radar-stag='ssh tuscan-seb-radar-2'
+
+
+# ANSIBLE
+####################################################################################################
+alias sync='ansible-playbook -i ~/ansible/mississippi_hosts -k ~/ansible/sync_dt_code_to_stash.yml'
 
