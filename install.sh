@@ -16,6 +16,8 @@ ln -s ~/dotfiles/.sshrc.d ~/
 brew install sshrc
 brew install gnu-tar
 brew install reattach-to-user-namespace
+brew install icdiff
+brew install rtv
 
 # modify plist files
 # dock pop up time
