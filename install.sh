@@ -21,3 +21,11 @@ brew install rtv
 # modify plist files
 # dock pop up time
 defaults write com.apple.dock autohide-time-modifier -int 0
+
+# disable accents when holding keys
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# key repeat speed
+defaults write NSGlobalDomain InitialKeyRepeat -int 11
+defaults write NSGlobalDomain KeyRepeat -float 1.3
+
