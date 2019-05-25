@@ -12,6 +12,7 @@ ln -s ~/dotfiles/.sshrc ~/
 ln -s ~/dotfiles/.sshrc.d ~/
 
 # brew packages
+brew install bat
 brew install sshrc
 brew install gnu-tar
 brew install reattach-to-user-namespace
@@ -29,3 +30,5 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 defaults write NSGlobalDomain KeyRepeat -float 2
 
+# disable mouse smoothing
+defaults write -g com.apple.mouse.scaling -1

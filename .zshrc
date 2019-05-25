@@ -29,6 +29,7 @@ alias awkc="awk -F ','"
 alias ..='cd ..'
 alias t="tmux"
 alias ta="tmux a"
+alias cat='bat'
 
 # git
 alias gg='git grep'
