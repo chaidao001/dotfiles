@@ -26,6 +26,6 @@ defaults write com.apple.dock autohide-time-modifier -int 0
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # key repeat speed
-defaults write NSGlobalDomain InitialKeyRepeat -int 11
-defaults write NSGlobalDomain KeyRepeat -float 1.3
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
+defaults write NSGlobalDomain KeyRepeat -float 2
 
